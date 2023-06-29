@@ -29,7 +29,7 @@ cli tool. (Or just an executable tool in the case of `pipx`)
 
 Run the following to view the built-in help:
 
-``` sh
+```
 qlikjwt --help
 
 Usage: qlikjwt [OPTIONS] JWT_PRIVATE_KEY
