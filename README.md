@@ -13,13 +13,13 @@ This script is setup as a Python package. You should be able to install it
 directly with `pip` or `pipx`:
 
 ``` sh
-pip install qlikjwt@git+https://github.com/swsphn/qlikjwt.git'
+pip install qlikjwt@git+https://github.com/swsphn/qlikjwt.git
 ```
 
 OR
 
 ``` sh
-pipx install qlikjwt@git+https://github.com/swsphn/qlikjwt.git'
+pipx install qlikjwt@git+https://github.com/swsphn/qlikjwt.git
 ```
 
 This will install `qlikjwt` as an importable Python library and an executable
