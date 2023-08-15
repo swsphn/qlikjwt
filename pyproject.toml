@@ -11,7 +11,7 @@ repository = "https://github.com/swsphn/qlikjwt/"
 python = ">=3.8 <4.0"
 typer = "^0.9.0"
 PyJWT = "^2.7.0"
-cryptography = "^41.0.1"
+cryptography = "^41.0.3"
 
 
 [tool.poetry.group.dev.dependencies]
