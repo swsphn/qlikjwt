@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "qlikjwt"
-version = "1.0.0"
+version = "1.0.1"
 description = "Create JWT tokens from a private key and a payload"
 authors = ["David Wales <david.wales@swsphn.com.au>"]
 readme = "README.md"
@@ -8,14 +8,14 @@ license = "MIT"
 repository = "https://github.com/swsphn/qlikjwt/"
 
 [tool.poetry.dependencies]
-python = ">=3.8 <4.0"
-typer = "^0.9.0"
-PyJWT = "^2.7.0"
-cryptography = "^42.0.4"
+python = ">=3.9.2 <4.0"
+typer = "^0.19.2"
+PyJWT = "^2.10.1"
+cryptography = "^46.0.1"
 
 
 [tool.poetry.group.dev.dependencies]
-black = "^23.3.0"
+black = "^25.9.0"
 
 [tool.poetry.scripts]
 qlikjwt = 'qlikjwt.qlikjwt:run'
